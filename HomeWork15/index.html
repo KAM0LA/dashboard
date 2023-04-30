@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/import.css" />
+    <!-- Font-Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font-End -->
+  </head>
+  <body>
+    <!-- Aside-Start -->
+    <aside>
+      <div class="asideLogo">
+        <img src="images/logo.svg" alt="">
+        <span class="asideLogoText">Dashboard</span>
+      </div>
+      <div class="asideList">
+        <ul class="listUl">
+          <li class="listLi">
+            <a href="#">
+              <img src="images/pie-chart.svg" alt="">
+              <span class="liSpan">Overview</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="./ticket.html">
+             <img src="images/tiket.svg" alt="">
+              <span class="liSpan">Tickets</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="#">
+              <img src="images/lamp.svg" alt="">
+              <span class="liSpan">Ideas</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="#">
+             <img src="images/contacts.svg" alt="">
+              <span class="liSpan">Contacts</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="#">
+              <img src="images/agents.svg" alt="">
+              <span class="liSpan">Agents</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="#">
+              <img src="images/article.svg" alt="">
+              <span class="liSpan">Articles</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="asideEnd">
+        <div class="darkGen">
+          <input id="light" type="checkbox" />
+          <span class="mode">Change mode</span>
+        </div>
+        <button class="outBut" >
+        <img src="images/logout.svg" alt="mode">
+        </button>
+        <span>Logout</span>
+      </div>
+    </aside>
+    <header class="hedaer">
+      <div class="headerBtn">
+        <button class="hamburger" id="menu-btn">
+          <div class="butDiv">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </button>
+      </div>
+      <div class="headerRight">
+        <span>Jones Ferdinand</span>
+        <img src="images/profile.png" alt="" />
+      </div>
+    </header>
+    <!-- Header-End -->
+    <!-- Main-Start -->
+    <main>
+      <div class="main-top">
+        <div class="main-left">
+          <span class="main-top-text">Overview</span>
+        </div>
+        <div class="main-top-buts">
+          <button class="dots">
+            <div class="dot"></div>
+            <div class="dot dot2"></div>
+            <div class="dot"></div>
+          </button>
+          <button class="add">Add</button>
+        </div>
+      </div>
+      <div class="main-table">
+        <table>
+          <thead>
+            <tr>
+              <th class="table-head-data">Owner</th>
+              <th class="table-head-data">End date</th>
+              <th class="table-head-data">Profits</th>
+              <th class="table-head-data">Loses</th>
+              <th class="table-head-data">Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td1.png" alt="" />
+                <span class="tdSpan">Savannah Nguyen</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td2.png" alt="" />
+                <span class="tdSpan">Jenny Wilson</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td3.png" alt="" />
+                <span class="tdSpan">Annette Black</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td4.png" alt="" />
+                <span class="tdSpan">Kathryn Murphy</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td5.png" alt="" />
+                <span class="tdSpan">Cameron Williamson</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td6.png" alt="" />
+                <span class="tdSpan">Kristin Watson</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td1.png" alt="" />
+                <span class="tdSpan">Savannah Nguyen</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td2.png" alt="" />
+                <span class="tdSpan">Jenny Wilson</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td3.png" alt="" />
+                <span class="tdSpan">Annette Black</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td4.png" alt="" />
+                <span class="tdSpan">Kathryn Murphy</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td5.png" alt="" />
+                <span class="tdSpan">Cameron Williamson</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td6.png" alt="" />
+                <span class="tdSpan">Kristin Watson</span>
+              </td>
+              <td class="table-data">1/15/12</td>
+              <td class="table-data">$328.85</td>
+              <td class="table-data">$779.58</td>
+              <td class="table-data">(603) 555-0123</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <!-- Main-End -->
+  </body>
+  <script src="./js/main.js"></script>
+</html>

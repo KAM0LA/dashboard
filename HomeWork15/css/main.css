@@ -1,0 +1,130 @@
+main {
+  overflow: auto;
+}
+.main-top {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+  transition: 0.3s ease-in-out;
+}
+.main-top-text {
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 47px;
+  color: #8b8c92;
+}
+.main-top-buts {
+  display: flex;
+  align-items: center;
+}
+.main-top-buts button {
+  background-color: #9dadb9;
+  width: 40px;
+  height: 30px;
+  border: 1px solid transparent;
+  margin-left: 20px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.main-top-buts button:hover {
+  border: 2px solid #3e4049;
+}
+.main-top-buts .add {
+  background-color: #10cd45;
+  color: white;
+}
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot {
+  width: 3px;
+  height: 3px;
+  background-color: #eef2f5;
+}
+.dot2 {
+  margin: 0px 4px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 137px;
+}
+thead {
+  padding: 0px 50px;
+ 
+}
+.juft{
+  background: #EEF2F5; 
+}
+th,
+td {
+  padding: 0px 50px;
+  text-align: left;
+  height: 60px;
+}
+td,
+td span {
+  color: #9dadb1;
+}
+.imglitd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.table-head-data {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9dadb9;
+}
+.tdImg {
+  margin-right: 10px;
+}
+.high {
+  padding: 5px 12px;
+  width: 54px;
+  border: none;
+  color: white;
+  background: #f12b2c;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.normal {
+  padding: 5px 12px;
+  width: 76px;
+  border: none;
+  color: white;
+  background: #29cc97;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.low {
+  padding: 5px 12px;
+  width: 52px;
+  border: none;
+  color: white;
+  background: #fec400;
+  border-radius: 100px;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #4b4d58;
+  border-radius: 10px;
+}
+.brSpan {
+  color: #c5c7cd;
+  font-size: 10px;
+}

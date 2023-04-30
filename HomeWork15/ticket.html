@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/import.css" />
+  </head>
+  <body>
+    <aside>
+      <div class="asideLogo">
+        <img src="images/logo.svg" alt="">
+        <span class="asideLogoText">Dashboard</span>
+      </div>
+      <div class="asideList">
+        <ul class="listUl">
+          <li class="listLi">
+            <a href="./index.html">
+             <img src="images/pie-chart.svg" alt="">
+              <span class="liSpan">Overview</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="#">
+             <img src="images/tiket.svg" alt="">
+              <span class="liSpan">Tickets</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="#">
+              <img src="images/lamp.svg" alt="">
+              <span class="liSpan">Ideas</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="#">
+              <img src="images/contacts.svg" alt="">
+              <span class="liSpan">Contacts</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="#">
+              <img src="images/agents.svg" alt="">
+              <span class="liSpan">Agents</span>
+            </a>
+          </li>
+          <li class="listLi">
+            <a href="#">
+              <img src="images/article.svg" alt="">
+              <span class="liSpan">Articles</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="asideEnd">
+        <div class="darkGen">
+          <button><img src="images/mode.svg" alt=""></button>
+          <span class="mode">Change mode</span>
+        </div>
+        <button class="outBut">
+          <img src="images/logout.svg" alt="">
+        </button>
+        <span class="logout">Logout</span>
+      </div>
+    </aside>
+    <header class="hedaer">
+      <div class="headerBtn">
+        <button class="hamburger" id="menu-btn">
+          <div class="butDiv">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </button>
+      </div>
+      <div class="headerRight">
+        <span>Jones Ferdinand</span>
+        <img src="images/profile.png" alt="" />
+      </div>
+    </header>
+    
+    <main>
+      <div class="main-top">
+        <div class="main-left">
+          <span class="main-top-text">Tickets</span>
+        </div>
+        <div class="main-top-buts">
+          <button class="dots">
+            <div class="dot"></div>
+            <div class="dot dot2"></div>
+            <div class="dot"></div>
+          </button>
+          <button class="add">Add</button>
+        </div>
+      </div>
+      <div class="main-table">
+        <table>
+          <thead>
+            <tr>
+              <th class="table-head-data">Ticket details</th>
+              <th class="table-head-data">Customer name</th>
+              <th class="table-head-data">Date</th>
+              <th class="table-head-data">Priority</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td10.png" alt="" />
+                <span class="tdSpan"
+                  >Contact email not linked <br />
+                  <span class="brSpan">Updated 1 day ago</span>
+                </span>
+              </td>
+              <td class="table-data">
+                Tom Cruise <br />
+                <span class="brSpan">on 24.05.2019</span>
+              </td>
+              <td class="table-data">
+                Mar 30, 2023 <br />
+                <span class="brSpan">6:30 PM</span>
+              </td>
+              <td class="table-data"><button class="high">High</button></td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td9.png" alt="" />
+                <span class="tdSpan"
+                  >Adding Images to Featured Posts <br />
+                  <span class="brSpan">Updated 1 day ago</span></span
+                >
+              </td>
+              <td class="table-data">Matt Damon <br />
+                <span class="brSpan">on 24.05.2019</span></td>
+              <td class="table-data">Feb 30, 2023 <br />
+                <span class="brSpan">6:30 PM</span></td>
+              <td class="table-data"><button class="low">Low</button></td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td8.png" alt="" />
+                <span class="tdSpan"
+                  >When will I be charged this month? <br />
+                  <span class="brSpan">Updated 1 day ago</span>
+                </span>
+              </td>
+              <td class="table-data">Robert Downey <br />
+                <span class="brSpan">on 24.05.2019</span></td>
+              <td class="table-data">May 26, 2019 <br />
+                <span class="brSpan">6:30 PM</span></td>
+              <td class="table-data"><button class="normal">Normal</button></td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td4.png" alt="" />
+                <span class="tdSpan"
+                  >Payment not going through <br />
+                  <span class="brSpan">Updated 1 day ago</span>
+                </span>
+              </td>
+              <td class="table-data">Payment not going through <br />
+                <span class="brSpan">on 24.05.2019</span></td>
+              <td class="table-data">Oct 4, 2003 <br />
+                <span class="brSpan">6:30 PM</span></td>
+              <td class="table-data"><button class="low">Low</button></td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td1.png" alt="" />
+                <span class="tdSpan"
+                  >Contact email not linked <br />
+                  <span class="brSpan">Updated 1 day ago</span>
+                </span>
+              </td>
+              <td class="table-data">
+                Tom Cruise <br />
+                <span class="brSpan">on 24.05.2019</span>
+              </td>
+              <td class="table-data">
+                Mar 30, 2023 <br />
+                <span class="brSpan">6:30 PM</span>
+              </td>
+              <td class="table-data"><button class="high">High</button></td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td2.png" alt="" />
+                <span class="tdSpan"
+                  >Adding Images to Featured Posts <br />
+                  <span class="brSpan">Updated 1 day ago</span></span
+                >
+              </td>
+              <td class="table-data">Matt Damon <br />
+                <span class="brSpan">on 24.05.2019</span></td>
+              <td class="table-data">Feb 30, 2023 <br />
+                <span class="brSpan">6:30 PM</span></td>
+              <td class="table-data"><button class="low">Low</button></td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td3.png" alt="" />
+                <span class="tdSpan"
+                  >When will I be charged this month? <br />
+                  <span class="brSpan">Updated 1 day ago</span>
+                </span>
+              </td>
+              <td class="table-data">Robert Downey <br />
+                <span class="brSpan">on 24.05.2019</span></td>
+              <td class="table-data">May 26, 2019 <br />
+                <span class="brSpan">6:30 PM</span></td>
+              <td class="table-data"><button class="high">High</button></td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td4.png" alt="" />
+                <span class="tdSpan"
+                  >Payment not going through <br />
+                  <span class="brSpan">Updated 1 day ago</span>
+                </span>
+              </td>
+              <td class="table-data">Payment not going through <br />
+                <span class="brSpan">on 24.05.2019</span></td>
+              <td class="table-data">Oct 4, 2003 <br />
+                <span class="brSpan">6:30 PM</span></td>
+              <td class="table-data"><button class="normal">Normal</button></td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td5.png" alt="" />
+                <span class="tdSpan"
+                  >Contact email not linked <br />
+                  <span class="brSpan">Updated 1 day ago</span>
+                </span>
+              </td>
+              <td class="table-data">
+                Tom Cruise <br />
+                <span class="brSpan">on 24.05.2019</span>
+              </td>
+              <td class="table-data">
+                Mar 30, 2023 <br />
+                <span class="brSpan">6:30 PM</span>
+              </td>
+              <td class="table-data"><button class="high">High</button></td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td6.png" alt="" />
+                <span class="tdSpan"
+                  >Adding Images to Featured Posts <br />
+                  <span class="brSpan">Updated 1 day ago</span></span
+                >
+              </td>
+              <td class="table-data">Matt Damon <br />
+                <span class="brSpan">on 24.05.2019</span></td>
+              <td class="table-data">Feb 30, 2023 <br />
+                <span class="brSpan">6:30 PM</span></td>
+              <td class="table-data"><button class="normal">Normal</button></td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td7.png" alt="" />
+                <span class="tdSpan"
+                  >When will I be charged this month? <br />
+                  <span class="brSpan">Updated 1 day ago</span>
+                </span>
+              </td>
+              <td class="table-data">Robert Downey <br />
+                <span class="brSpan">on 24.05.2019</span></td>
+              <td class="table-data">May 26, 2019 <br />
+                <span class="brSpan">6:30 PM</span></td>
+              <td class="table-data"><button class="low">Low</button></td>
+            </tr>
+            <tr class="table-row juft">
+              <td class="table-data imglitd">
+                <img class="tdImg" src="images/td8.png" alt="" />
+                <span class="tdSpan"
+                  >Payment not going through <br />
+                  <span class="brSpan">Updated 1 day ago</span>
+                </span>
+              </td>
+              <td class="table-data">Payment not going through <br />
+                <span class="brSpan">on 24.05.2019</span></td>
+              <td class="table-data">Oct 4, 2003 <br />
+                <span class="brSpan">6:30 PM</span></td>
+              <td class="table-data"><button class="normal">Normal</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <!-- Main-End -->
+  </body>
+  <script src="./js/main.js"></script>
+</html>
